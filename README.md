@@ -20,6 +20,6 @@ To exit the program, simply exit the ‘Assignment 1’ window by clicking on th
 The problems are stored in simple text files with the following format:
 - First line contains a pair of numbers [N,M] – the number of rows and the number of columns of the grid, enclosed in square brackets.
 - Second line contains a pair of numbers (x1,y1) – the coordinates of the current location of the agent, the initial state.
-- Third line contains a sequence of pairs of numbers separated by |; these are the coordinates of the goal states: (xG1,yG1) | (xG2,yG2) | … | (xGn,yGn), where n ≥ 1.
-- The subsequent lines represent the locations of the walls: The tuple (x,y,w,h) indicates that the leftmost top corner of the wall occupies cell (x,y) with a width of w cells and a height of h cells.
-- We will only be interested in search algorithms. Therefore, you can assume that the problem files will contain valid configurations. For instance, if N=5 and M = 11 then you don’t have to worry that the agent is initially located at coordinates (15, 3).
+- Third line contains a sequence of pairs of numbers separated by |; these are the coordinates of the goal states: $(x_{G1},y_{G1}) | (x_{G2},y_{G2}) | … | (x_{Gn},y_{Gn})$, where $n \ge 1$.
+- The subsequent lines represent the locations of the walls: The tuple $(x, y, w, h)$ indicates that the leftmost top corner of the wall occupies cell $(x,y)$ with a width of w cells and a height of h cells.
+- We will only be interested in search algorithms. Therefore, you can assume that the problem files will contain valid configurations. For instance, if $N=5$ and $M = 11$ then you don’t have to worry that the agent is initially located at coordinates $(15, 3)$.
